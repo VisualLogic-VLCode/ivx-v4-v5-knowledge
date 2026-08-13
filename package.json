@@ -1,6 +1,6 @@
 {
   "name": "@visuallogic-vlcode/ivx-v4-v5-knowledge-maintainer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Deterministic publisher for the public signed iVX V4-to-V5 Knowledge Runtime.",
   "type": "module",
   "private": true,
