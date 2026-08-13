@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.ivx.local/knowledge/v1/knowledge-card.schema.json",
+  "title": "iVX V4-to-V5 Knowledge Card",
+  "type": "object",
+  "required": ["schemaVersion", "ruleId", "version", "topic", "status", "match", "sourcePattern", "targetInvariant", "exceptions", "evidence", "permissions"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "ruleId": { "type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,127}$" },
+    "version": { "type": "integer", "minimum": 1 },
+    "topic": { "type": "string", "minLength": 1, "maxLength": 256 },
+    "status": { "enum": ["CONFIRMED", "PENDING_RUNTIME", "ADVISORY_ONLY", "EXECUTABLE_REPAIR"] },
+    "match": {
+      "type": "object",
+      "required": ["jsonPaths", "nodeTypes", "astOps", "componentMethods", "diagnosticCodes", "runtimeErrors", "behaviorMismatches"],
+      "properties": {
+        "jsonPaths": { "$ref": "#/$defs/stringArray" },
+        "nodeTypes": { "$ref": "#/$defs/stringArray" },
+        "astOps": { "$ref": "#/$defs/stringArray" },
+        "componentMethods": { "$ref": "#/$defs/stringArray" },
+        "diagnosticCodes": { "$ref": "#/$defs/stringArray" },
+        "runtimeErrors": { "$ref": "#/$defs/stringArray" },
+        "behaviorMismatches": { "$ref": "#/$defs/stringArray" }
+      },
+      "additionalProperties": false
+    },
+    "sourcePattern": { "type": "string", "minLength": 1, "maxLength": 4096 },
+    "targetInvariant": { "type": "string", "minLength": 1, "maxLength": 4096 },
+    "exceptions": { "type": "array", "maxItems": 100, "uniqueItems": true, "items": { "type": "string", "minLength": 1, "maxLength": 2048 } },
+    "evidence": {
+      "type": "object",
+      "required": ["level", "types", "provenanceIds"],
+      "properties": {
+        "level": { "enum": ["HIGH", "MEDIUM", "LOW"] },
+        "types": { "$ref": "#/$defs/stringArray" },
+        "provenanceIds": { "$ref": "#/$defs/stringArray" }
+      },
+      "additionalProperties": false
+    },
+    "permissions": {
+      "type": "object",
+      "required": ["diagnosis", "staticValidation", "automaticRepair", "humanConfirmationRequired"],
+      "properties": {
+        "diagnosis": { "type": "boolean" },
+        "staticValidation": { "type": "boolean" },
+        "automaticRepair": { "type": "boolean" },
+        "humanConfirmationRequired": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$defs": {
+    "stringArray": { "type": "array", "maxItems": 100, "uniqueItems": true, "items": { "type": "string", "minLength": 1, "maxLength": 512 } }
+  },
+  "additionalProperties": false
+}

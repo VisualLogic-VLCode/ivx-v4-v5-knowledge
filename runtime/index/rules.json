@@ -1,0 +1,1969 @@
+{
+  "rules": [
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "event-behavior"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-EV-001",
+          "KI-14"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-EV-001",
+      "status": "PENDING_RUNTIME",
+      "topic": "第 4 步：逐结构查规则（按域查章）"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "event-behavior"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-EV-002"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-EV-002",
+      "status": "ADVISORY_ONLY",
+      "topic": "3.2.2 事件条目骨架〔CVT-EV-002〕"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "event-behavior"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-EV-003"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-EV-003",
+      "status": "ADVISORY_ONLY",
+      "topic": "3.2.3 触发器参数 → 事件体外层条件〔CVT-EV-003〕"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "event-behavior"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-EV-010"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-EV-010",
+      "status": "ADVISORY_ONLY",
+      "topic": "3.2.1 条件的通用转换（cons 数组 → and/or 树）〔CVT-EV-010〕"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:for",
+          "op:let",
+          "op:list",
+          "op:step"
+        ],
+        "behaviorMismatches": [
+          "event-behavior"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-EV-020"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-EV-020",
+      "status": "ADVISORY_ONLY",
+      "topic": "3.2.4 循环块 ★"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:while"
+        ],
+        "behaviorMismatches": [
+          "event-behavior"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-EV-021"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-EV-021",
+      "status": "ADVISORY_ONLY",
+      "topic": "3.2.4 循环块 ★"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:for"
+        ],
+        "behaviorMismatches": [
+          "event-behavior"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-EV-022"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-EV-022",
+      "status": "ADVISORY_ONLY",
+      "topic": "3.2.4 循环块 ★"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "event-behavior"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-EV-023"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-EV-023",
+      "status": "ADVISORY_ONLY",
+      "topic": "3.2.4 循环块 ★"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "event-behavior"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-EV-030"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-EV-030",
+      "status": "CONFIRMED",
+      "topic": "3.2.5 条件块（if/elseif/else 链 → 单个 switch）〔CVT-EV-030〕"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "event-behavior"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-EV-040"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-EV-040",
+      "status": "ADVISORY_ONLY",
+      "topic": "3.2.6 方法参数生成（genMethodArgs 与参数类型分派）〔CVT-EV-040〕"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "event-behavior"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-EV-050"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-EV-050",
+      "status": "ADVISORY_ONLY",
+      "topic": "3.2.7 动作块与回调"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "event-behavior"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-EV-051"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-EV-051",
+      "status": "ADVISORY_ONLY",
+      "topic": "3.2.7 动作块与回调"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:let"
+        ],
+        "behaviorMismatches": [
+          "event-behavior"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-EV-052"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-EV-052",
+      "status": "ADVISORY_ONLY",
+      "topic": "3.2.7 动作块与回调"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:block",
+          "op:switch",
+          "op:sysop"
+        ],
+        "behaviorMismatches": [
+          "event-behavior"
+        ],
+        "componentMethods": [
+          "equal"
+        ],
+        "diagnosticCodes": [
+          "CVT-EV-053",
+          "KI-52"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-EV-053",
+      "status": "ADVISORY_ONLY",
+      "topic": "3.2.7 动作块与回调"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:let"
+        ],
+        "behaviorMismatches": [
+          "event-behavior"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-EV-054"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-EV-054",
+      "status": "ADVISORY_ONLY",
+      "topic": "3.2.7 动作块与回调"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "event-behavior"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-EV-055"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [
+          "data-funcGroupCb"
+        ],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-EV-055",
+      "status": "ADVISORY_ONLY",
+      "topic": "3.2.7 动作块与回调"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "event-behavior"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-EV-060"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-EV-060",
+      "status": "ADVISORY_ONLY",
+      "topic": "3.2.8 group / comment〔CVT-EV-060〕"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "event-behavior"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-EV-070"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-EV-070",
+      "status": "ADVISORY_ONLY",
+      "topic": "3.3 旧档式→新档式归一化（支撑 §3.1 的路线）〔CVT-EV-070〕"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "formula-ast"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-FC-001"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-FC-001",
+      "status": "CONFIRMED",
+      "topic": "5.1 流水线与三级兜底（CVT-FC-001）"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "formula-ast"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-FC-002"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-FC-002",
+      "status": "ADVISORY_ONLY",
+      "topic": "5.2 词法（jsep 1.4.0）与解析能力要求（CVT-FC-002）"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "formula-ast"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-FC-010"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-FC-010",
+      "status": "CONFIRMED",
+      "topic": "5.3 预处理（CVT-FC-010）"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "formula-ast"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-FC-020"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-FC-020",
+      "status": "ADVISORY_ONLY",
+      "topic": "5.4 语法节点分派表（CVT-FC-020）"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:val"
+        ],
+        "behaviorMismatches": [
+          "formula-ast"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-FC-021",
+          "KI-02",
+          "KI-35"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-FC-021",
+      "status": "PENDING_RUNTIME",
+      "topic": "2. 载体层：公式对象与空值（新档式）"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "formula-ast"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-FC-030"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-FC-030",
+      "status": "CONFIRMED",
+      "topic": "5. 组件节点与 binds：骨架零增删、载体全换"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:!=",
+          "op:=",
+          "op:and",
+          "op:block",
+          "op:concat",
+          "op:dict",
+          "op:lambda",
+          "op:list",
+          "op:neg",
+          "op:not",
+          "op:return",
+          "op:switchexp",
+          "op:sysop",
+          "op:val",
+          "op:var",
+          "sysop:notEqual"
+        ],
+        "behaviorMismatches": [
+          "formula-ast"
+        ],
+        "componentMethods": [
+          "equal"
+        ],
+        "diagnosticCodes": [
+          "CVT-FC-031",
+          "KI-21",
+          "KI-25",
+          "KI-32",
+          "KI-35",
+          "KI-40",
+          "KI-63"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-FC-031",
+      "status": "PENDING_RUNTIME",
+      "topic": "4. 语法子形态逐条规则"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:concat",
+          "op:sysutil",
+          "op:val",
+          "op:var"
+        ],
+        "behaviorMismatches": [
+          "formula-ast"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-FC-032"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-FC-032",
+      "status": "CONFIRMED",
+      "topic": "5. 组件节点与 binds：骨架零增删、载体全换"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "formula-ast"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-FC-033"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-FC-033",
+      "status": "CONFIRMED",
+      "topic": "5. 组件节点与 binds：骨架零增删、载体全换"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:!=",
+          "op:=",
+          "op:and",
+          "op:block",
+          "op:concat",
+          "op:dict",
+          "op:lambda",
+          "op:list",
+          "op:neg",
+          "op:not",
+          "op:return",
+          "op:switchexp",
+          "op:sysop",
+          "op:val",
+          "op:var",
+          "sysop:notEqual"
+        ],
+        "behaviorMismatches": [
+          "formula-ast"
+        ],
+        "componentMethods": [
+          "equal"
+        ],
+        "diagnosticCodes": [
+          "CVT-FC-034",
+          "KI-21",
+          "KI-25",
+          "KI-32",
+          "KI-35",
+          "KI-40",
+          "KI-63"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-FC-034",
+      "status": "PENDING_RUNTIME",
+      "topic": "4. 语法子形态逐条规则"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:!=",
+          "op:=",
+          "op:and",
+          "op:block",
+          "op:concat",
+          "op:dict",
+          "op:lambda",
+          "op:list",
+          "op:neg",
+          "op:not",
+          "op:return",
+          "op:switchexp",
+          "op:sysop",
+          "op:val",
+          "op:var",
+          "sysop:notEqual"
+        ],
+        "behaviorMismatches": [
+          "formula-ast"
+        ],
+        "componentMethods": [
+          "equal"
+        ],
+        "diagnosticCodes": [
+          "CVT-FC-035",
+          "KI-21",
+          "KI-25",
+          "KI-32",
+          "KI-35",
+          "KI-40",
+          "KI-63"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-FC-035",
+      "status": "PENDING_RUNTIME",
+      "topic": "4. 语法子形态逐条规则"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:!=",
+          "op:=",
+          "op:and",
+          "op:block",
+          "op:concat",
+          "op:dict",
+          "op:lambda",
+          "op:list",
+          "op:neg",
+          "op:not",
+          "op:return",
+          "op:switchexp",
+          "op:sysop",
+          "op:val",
+          "op:var",
+          "sysop:notEqual"
+        ],
+        "behaviorMismatches": [
+          "formula-ast"
+        ],
+        "componentMethods": [
+          "equal"
+        ],
+        "diagnosticCodes": [
+          "CVT-FC-036",
+          "KI-21",
+          "KI-25",
+          "KI-32",
+          "KI-35",
+          "KI-40",
+          "KI-63"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-FC-036",
+      "status": "PENDING_RUNTIME",
+      "topic": "4. 语法子形态逐条规则"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "formula-ast"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-FC-040"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-FC-040",
+      "status": "ADVISORY_ONLY",
+      "topic": "5.6 语义分派（getCtx，CVT-FC-040）"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "formula-ast"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-FC-050"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-FC-050",
+      "status": "ADVISORY_ONLY",
+      "topic": "5. 组件节点与 binds：骨架零增删、载体全换"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "formula-ast"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-FC-051"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-FC-051",
+      "status": "CONFIRMED",
+      "topic": "5. 组件节点与 binds：骨架零增删、载体全换"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:get",
+          "op:ref",
+          "op:sysutil",
+          "op:var"
+        ],
+        "behaviorMismatches": [
+          "formula-ast"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-FC-052",
+          "KI-29",
+          "KI-33",
+          "KI-34"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-FC-052",
+      "status": "CONFIRMED",
+      "topic": "5.7 成员访问・调用・下标（CVT-FC-050~057）"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:get",
+          "op:sysutil",
+          "op:val",
+          "op:var"
+        ],
+        "behaviorMismatches": [
+          "formula-ast"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-FC-053",
+          "KI-32"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-FC-053",
+      "status": "CONFIRMED",
+      "topic": "5.7 成员访问・调用・下标（CVT-FC-050~057）"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "formula-ast"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-FC-054"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-FC-054",
+      "status": "ADVISORY_ONLY",
+      "topic": "7. if/else 链 → 单 switch：合并、新生 ln 与状态标记"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:!=",
+          "op:=",
+          "op:and",
+          "op:block",
+          "op:concat",
+          "op:dict",
+          "op:lambda",
+          "op:list",
+          "op:neg",
+          "op:not",
+          "op:return",
+          "op:switchexp",
+          "op:sysop",
+          "op:val",
+          "op:var",
+          "sysop:notEqual"
+        ],
+        "behaviorMismatches": [
+          "formula-ast"
+        ],
+        "componentMethods": [
+          "equal"
+        ],
+        "diagnosticCodes": [
+          "CVT-FC-060",
+          "KI-21",
+          "KI-25",
+          "KI-32",
+          "KI-35",
+          "KI-40",
+          "KI-63"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-FC-060",
+      "status": "PENDING_RUNTIME",
+      "topic": "4. 语法子形态逐条规则"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "style-or-asset"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-PROP-001"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-PROP-001",
+      "status": "ADVISORY_ONLY",
+      "topic": "2.1 面板样式槽直传〔CVT-PROP-001〕"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "style-or-asset"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-PROP-002"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-PROP-002",
+      "status": "ADVISORY_ONLY",
+      "topic": "2.2 @槽键名直传与病理键处置〔CVT-PROP-002〕"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "style-or-asset"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-PROP-003"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-PROP-003",
+      "status": "ADVISORY_ONLY",
+      "topic": "3. 节点自定义样式 styleList/style〔CVT-PROP-003〕"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "style-or-asset"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-PROP-004"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-PROP-004",
+      "status": "ADVISORY_ONLY",
+      "topic": "4. 样式类三键〔CVT-PROP-004〕"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "style-or-asset"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-PROP-005"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-PROP-005",
+      "status": "ADVISORY_ONLY",
+      "topic": "5. 案例主题 ivxThemeStyle：内容整体保真〔CVT-PROP-005〕"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "style-or-asset"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-PROP-006"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-PROP-006",
+      "status": "ADVISORY_ONLY",
+      "topic": "2.3 主题指针键〔CVT-PROP-006〕"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "style-or-asset"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-PROP-007"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-PROP-007",
+      "status": "ADVISORY_ONLY",
+      "topic": "6. colorVars / cssStyleSheet：目标侧生成约束〔CVT-PROP-007〕"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "style-or-asset"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-PROP-008"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [
+          "data-animate"
+        ],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-PROP-008",
+      "status": "ADVISORY_ONLY",
+      "topic": "7.1 data-animate 关键帧动画：直传〔CVT-PROP-008〕"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "style-or-asset"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-PROP-009"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-PROP-009",
+      "status": "PENDING_RUNTIME",
+      "topic": "7.2 旧代动画组：不可转换上报〔CVT-PROP-009〕"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "style-or-asset"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-PROP-010"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [
+          "ih5-css-plugin"
+        ],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-PROP-010",
+      "status": "ADVISORY_ONLY",
+      "topic": "7.3 ih5-css-plugin 样式插件：直传 + 派生副本重算〔CVT-PROP-010〕"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "style-or-asset"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-PROP-011"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-PROP-011",
+      "status": "ADVISORY_ONLY",
+      "topic": "8. 素材引用迁移〔CVT-PROP-011 / CVT-PROP-012〕"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "style-or-asset"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-PROP-012"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-PROP-012",
+      "status": "ADVISORY_ONLY",
+      "topic": "8. 素材引用迁移〔CVT-PROP-011 / CVT-PROP-012〕"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "top-level-shape"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-TOP-001"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-TOP-001",
+      "status": "CONFIRMED",
+      "topic": "2. 第 0 层：顶层三段〔CVT-TOP-001〕"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "top-level-shape"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-TOP-002",
+          "KI-12",
+          "KI-17"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-TOP-002",
+      "status": "ADVISORY_ONLY",
+      "topic": "4. 缺段与破损形态的处置"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "top-level-shape"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-TOP-003"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-TOP-003",
+      "status": "CONFIRMED",
+      "topic": "2.3 ntype 映射表〔CVT-TOP-003〕"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "top-level-shape"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-TOP-004"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [
+          "ih5-stage-abs"
+        ],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-TOP-004",
+      "status": "PENDING_RUNTIME",
+      "topic": "3. 第 1 层：stage 根——十二键逐键对照"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "top-level-shape"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-TOP-005"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [
+          "ih5-stage-abs"
+        ],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-TOP-005",
+      "status": "PENDING_RUNTIME",
+      "topic": "3. 第 1 层：stage 根——十二键逐键对照"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "top-level-shape"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-TOP-006"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-TOP-006",
+      "status": "PENDING_RUNTIME",
+      "topic": "4. case 段：整段直传 + 一处打标〔CVT-TOP-001〕"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "top-level-shape"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-TOP-007"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [
+          "ih5-stage-abs"
+        ],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-TOP-007",
+      "status": "CONFIRMED",
+      "topic": "3. 第 1 层：stage 根——十二键逐键对照"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "top-level-shape"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-TOP-008",
+          "KI-01"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-TOP-008",
+      "status": "PENDING_RUNTIME",
+      "topic": "3.1 stage 根级键"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "top-level-shape"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-TOP-009"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-TOP-009",
+      "status": "CONFIRMED",
+      "topic": "9. 前台直调 db → 新生服务节点：\"无中生有\"的一层"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "top-level-shape"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-TOP-010"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [
+          "ih5-stage-abs"
+        ],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-TOP-010",
+      "status": "CONFIRMED",
+      "topic": "3. 第 1 层：stage 根——十二键逐键对照"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:val"
+        ],
+        "behaviorMismatches": [
+          "value-shape"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-VAL-001",
+          "KI-02"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-VAL-001",
+      "status": "PENDING_RUNTIME",
+      "topic": "第 5 步：值形态分类（逐槽）"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:val"
+        ],
+        "behaviorMismatches": [
+          "value-shape"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-VAL-002",
+          "KI-02"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-VAL-002",
+      "status": "PENDING_RUNTIME",
+      "topic": "第 5 步：值形态分类（逐槽）"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:val"
+        ],
+        "behaviorMismatches": [
+          "value-shape"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-VAL-003",
+          "KI-02"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-VAL-003",
+      "status": "PENDING_RUNTIME",
+      "topic": "第 5 步：值形态分类（逐槽）"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "value-shape"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-VAL-100",
+          "KI-17",
+          "KI-41"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-VAL-100",
+      "status": "PENDING_RUNTIME",
+      "topic": "7.1 旧档式载体（分段数组为权威输入）"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:field",
+          "op:get",
+          "op:ref",
+          "op:val",
+          "op:var"
+        ],
+        "behaviorMismatches": [
+          "value-shape"
+        ],
+        "componentMethods": [
+          "value"
+        ],
+        "diagnosticCodes": [
+          "CVT-VAL-101",
+          "KI-26"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [
+          "obj-arr",
+          "obj-json"
+        ],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-VAL-101",
+      "status": "PENDING_RUNTIME",
+      "topic": "7.3 组装总规则与逐段类型规则表"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:field",
+          "op:get",
+          "op:ref",
+          "op:val",
+          "op:var"
+        ],
+        "behaviorMismatches": [
+          "value-shape"
+        ],
+        "componentMethods": [
+          "value"
+        ],
+        "diagnosticCodes": [
+          "CVT-VAL-102",
+          "KI-26"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [
+          "obj-arr",
+          "obj-json"
+        ],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-VAL-102",
+      "status": "PENDING_RUNTIME",
+      "topic": "7.3 组装总规则与逐段类型规则表"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:field",
+          "op:get",
+          "op:ref",
+          "op:val",
+          "op:var"
+        ],
+        "behaviorMismatches": [
+          "value-shape"
+        ],
+        "componentMethods": [
+          "value"
+        ],
+        "diagnosticCodes": [
+          "CVT-VAL-103",
+          "KI-26"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [
+          "obj-arr",
+          "obj-json"
+        ],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-VAL-103",
+      "status": "PENDING_RUNTIME",
+      "topic": "7.3 组装总规则与逐段类型规则表"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:field",
+          "op:get",
+          "op:ref",
+          "op:val",
+          "op:var"
+        ],
+        "behaviorMismatches": [
+          "value-shape"
+        ],
+        "componentMethods": [
+          "value"
+        ],
+        "diagnosticCodes": [
+          "CVT-VAL-104",
+          "KI-26"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [
+          "obj-arr",
+          "obj-json"
+        ],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-VAL-104",
+      "status": "PENDING_RUNTIME",
+      "topic": "7.3 组装总规则与逐段类型规则表"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:field",
+          "op:get",
+          "op:ref",
+          "op:val",
+          "op:var"
+        ],
+        "behaviorMismatches": [
+          "value-shape"
+        ],
+        "componentMethods": [
+          "value"
+        ],
+        "diagnosticCodes": [
+          "CVT-VAL-105",
+          "KI-26"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [
+          "obj-arr",
+          "obj-json"
+        ],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-VAL-105",
+      "status": "PENDING_RUNTIME",
+      "topic": "7.3 组装总规则与逐段类型规则表"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:amethod",
+          "op:field",
+          "op:get",
+          "op:index",
+          "op:method",
+          "op:ref",
+          "op:sysutil",
+          "op:val",
+          "op:var"
+        ],
+        "behaviorMismatches": [
+          "value-shape"
+        ],
+        "componentMethods": [
+          "getSelf",
+          "param",
+          "random",
+          "result"
+        ],
+        "diagnosticCodes": [
+          "CVT-VAL-106",
+          "KI-29",
+          "KI-32",
+          "KI-33",
+          "KI-34",
+          "KI-35",
+          "KI-38",
+          "KI-64"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [
+          "data-funcGroup",
+          "data-service",
+          "obj-funcGroup"
+        ],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-VAL-106",
+      "status": "PENDING_RUNTIME",
+      "topic": "3. 标识符空间逐形态规则"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:field",
+          "op:get",
+          "op:ref",
+          "op:val",
+          "op:var"
+        ],
+        "behaviorMismatches": [
+          "value-shape"
+        ],
+        "componentMethods": [
+          "value"
+        ],
+        "diagnosticCodes": [
+          "CVT-VAL-107",
+          "KI-26"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [
+          "obj-arr",
+          "obj-json"
+        ],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-VAL-107",
+      "status": "PENDING_RUNTIME",
+      "topic": "7.3 组装总规则与逐段类型规则表"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:field",
+          "op:get",
+          "op:ref",
+          "op:val",
+          "op:var"
+        ],
+        "behaviorMismatches": [
+          "value-shape"
+        ],
+        "componentMethods": [
+          "value"
+        ],
+        "diagnosticCodes": [
+          "CVT-VAL-108",
+          "KI-26"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [
+          "obj-arr",
+          "obj-json"
+        ],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-VAL-108",
+      "status": "PENDING_RUNTIME",
+      "topic": "7.3 组装总规则与逐段类型规则表"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:field",
+          "op:get",
+          "op:ref",
+          "op:val",
+          "op:var"
+        ],
+        "behaviorMismatches": [
+          "value-shape"
+        ],
+        "componentMethods": [
+          "value"
+        ],
+        "diagnosticCodes": [
+          "CVT-VAL-109",
+          "KI-26"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [
+          "obj-arr",
+          "obj-json"
+        ],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-VAL-109",
+      "status": "PENDING_RUNTIME",
+      "topic": "7.3 组装总规则与逐段类型规则表"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:field",
+          "op:get",
+          "op:ref",
+          "op:val",
+          "op:var"
+        ],
+        "behaviorMismatches": [
+          "value-shape"
+        ],
+        "componentMethods": [
+          "value"
+        ],
+        "diagnosticCodes": [
+          "CVT-VAL-110",
+          "KI-26"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [
+          "obj-arr",
+          "obj-json"
+        ],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-VAL-110",
+      "status": "PENDING_RUNTIME",
+      "topic": "7.3 组装总规则与逐段类型规则表"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:field",
+          "op:get",
+          "op:ref",
+          "op:val",
+          "op:var"
+        ],
+        "behaviorMismatches": [
+          "value-shape"
+        ],
+        "componentMethods": [
+          "value"
+        ],
+        "diagnosticCodes": [
+          "CVT-VAL-111",
+          "KI-26"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [
+          "obj-arr",
+          "obj-json"
+        ],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-VAL-111",
+      "status": "PENDING_RUNTIME",
+      "topic": "7.3 组装总规则与逐段类型规则表"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:field",
+          "op:get",
+          "op:ref",
+          "op:val",
+          "op:var"
+        ],
+        "behaviorMismatches": [
+          "value-shape"
+        ],
+        "componentMethods": [
+          "value"
+        ],
+        "diagnosticCodes": [
+          "CVT-VAL-112",
+          "KI-26"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [
+          "obj-arr",
+          "obj-json"
+        ],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-VAL-112",
+      "status": "PENDING_RUNTIME",
+      "topic": "7.3 组装总规则与逐段类型规则表"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:field",
+          "op:get",
+          "op:ref",
+          "op:val",
+          "op:var"
+        ],
+        "behaviorMismatches": [
+          "value-shape"
+        ],
+        "componentMethods": [
+          "value"
+        ],
+        "diagnosticCodes": [
+          "CVT-VAL-113",
+          "KI-26"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [
+          "obj-arr",
+          "obj-json"
+        ],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-VAL-113",
+      "status": "PENDING_RUNTIME",
+      "topic": "7.3 组装总规则与逐段类型规则表"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:field",
+          "op:get",
+          "op:ref",
+          "op:val",
+          "op:var"
+        ],
+        "behaviorMismatches": [
+          "value-shape"
+        ],
+        "componentMethods": [
+          "value"
+        ],
+        "diagnosticCodes": [
+          "CVT-VAL-114",
+          "KI-26"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [
+          "obj-arr",
+          "obj-json"
+        ],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-VAL-114",
+      "status": "PENDING_RUNTIME",
+      "topic": "7.3 组装总规则与逐段类型规则表"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "value-shape"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-VAL-115"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [
+          "data-vFor"
+        ],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-VAL-115",
+      "status": "PENDING_RUNTIME",
+      "topic": "7.3 组装总规则与逐段类型规则表"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:field",
+          "op:get",
+          "op:ref",
+          "op:val",
+          "op:var"
+        ],
+        "behaviorMismatches": [
+          "value-shape"
+        ],
+        "componentMethods": [
+          "value"
+        ],
+        "diagnosticCodes": [
+          "CVT-VAL-116",
+          "KI-26"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [
+          "obj-arr",
+          "obj-json"
+        ],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-VAL-116",
+      "status": "PENDING_RUNTIME",
+      "topic": "7.3 组装总规则与逐段类型规则表"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:field",
+          "op:get",
+          "op:ref",
+          "op:val",
+          "op:var"
+        ],
+        "behaviorMismatches": [
+          "value-shape"
+        ],
+        "componentMethods": [
+          "value"
+        ],
+        "diagnosticCodes": [
+          "CVT-VAL-117",
+          "KI-26"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [
+          "obj-arr",
+          "obj-json"
+        ],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-VAL-117",
+      "status": "PENDING_RUNTIME",
+      "topic": "7.3 组装总规则与逐段类型规则表"
+    },
+    {
+      "match": {
+        "astOps": [],
+        "behaviorMismatches": [
+          "value-shape"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-VAL-118"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-VAL-118",
+      "status": "PENDING_RUNTIME",
+      "topic": "7.5 paramList 路径操作映射子表（CVT-VAL-116 / 117 / 118）"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:!=",
+          "op:=",
+          "op:and",
+          "op:block",
+          "op:concat",
+          "op:dict",
+          "op:lambda",
+          "op:list",
+          "op:neg",
+          "op:not",
+          "op:return",
+          "op:switchexp",
+          "op:sysop",
+          "op:val",
+          "op:var",
+          "sysop:notEqual"
+        ],
+        "behaviorMismatches": [
+          "value-shape"
+        ],
+        "componentMethods": [
+          "equal"
+        ],
+        "diagnosticCodes": [
+          "CVT-VAL-119",
+          "KI-21",
+          "KI-25",
+          "KI-32",
+          "KI-35",
+          "KI-40",
+          "KI-63"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-VAL-119",
+      "status": "PENDING_RUNTIME",
+      "topic": "4. 语法子形态逐条规则"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:field",
+          "op:get",
+          "op:prop",
+          "op:ref",
+          "op:sysutil",
+          "op:var"
+        ],
+        "behaviorMismatches": [
+          "value-shape"
+        ],
+        "componentMethods": [
+          "value"
+        ],
+        "diagnosticCodes": [
+          "CVT-VAL-120"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [
+          "ih5-rel-layoutrow",
+          "ih5-rel-text",
+          "obj-arr",
+          "obj-json"
+        ],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-VAL-120",
+      "status": "ADVISORY_ONLY",
+      "topic": "7.4 真实语料对照例（旧代绑定）"
+    },
+    {
+      "match": {
+        "astOps": [
+          "op:el",
+          "op:prop"
+        ],
+        "behaviorMismatches": [
+          "value-shape"
+        ],
+        "componentMethods": [],
+        "diagnosticCodes": [
+          "CVT-VAL-121",
+          "KI-23"
+        ],
+        "jsonPaths": [],
+        "nodeTypes": [
+          "data-if",
+          "data-vIf",
+          "obj-json"
+        ],
+        "runtimeErrors": []
+      },
+      "ruleId": "CVT-VAL-121",
+      "status": "PENDING_RUNTIME",
+      "topic": "7.6 组装、残片与条件对（CVT-VAL-119 / 120 / 121）"
+    }
+  ],
+  "schemaVersion": 1
+}

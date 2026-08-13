@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+candidate-out/
+release-out/
+*.tgz
+*.tmp
+.runtime-candidate-*/
+.runtime-backup-*/
+*.pem
+!keys/knowledge-release-public-key.pem

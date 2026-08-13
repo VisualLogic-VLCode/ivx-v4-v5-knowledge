@@ -1,0 +1,10 @@
+{
+  "domains": {
+    "EV": 18,
+    "FC": 19,
+    "PROP": 12,
+    "TOP": 10,
+    "VAL": 25
+  },
+  "schemaVersion": 1
+}

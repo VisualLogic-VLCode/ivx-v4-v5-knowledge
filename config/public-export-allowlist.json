@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "allowlistVersion": "1.0.0",
+  "sourceIdentity": "vx-json-evolution-claude",
+  "requiredSourceFiles": [
+    "scripts/build_book.py",
+    "scripts/book_lint.py",
+    "docs/book-dist/spec-4x.md",
+    "docs/book-dist/spec-5x.md",
+    "docs/book-dist/conversion.md"
+  ],
+  "publicBooks": [
+    { "source": "docs/book-dist/spec-4x.md", "target": "books/spec-4x.md" },
+    { "source": "docs/book-dist/spec-5x.md", "target": "books/spec-5x.md" },
+    { "source": "docs/book-dist/conversion.md", "target": "books/conversion.md" }
+  ],
+  "ruleSource": "docs/book-dist/conversion.md",
+  "compatibility": {
+    "workflow": ">=0.3.8 <1.0.0",
+    "converter": ">=1.2.1 <2.0.0",
+    "agentProtocol": { "min": 4, "max": 4 }
+  },
+  "privacyScannerVersion": "1.0.0"
+}

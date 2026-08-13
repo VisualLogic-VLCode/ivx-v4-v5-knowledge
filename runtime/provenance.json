@@ -1,0 +1,527 @@
+{
+  "deidentification": {
+    "policyVersion": "1.0.0",
+    "replacements": {
+      "caseIds": 85,
+      "objectIds": 391
+    }
+  },
+  "generator": {
+    "allowlistVersion": "1.0.0",
+    "name": "ivx-v4-v5-knowledge-sync",
+    "privacyScannerVersion": "1.0.0",
+    "version": "1.0.0"
+  },
+  "rules": {
+    "CVT-EV-001": {
+      "provenanceIds": [
+        "public:CVT-EV-001"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-EV-002": {
+      "provenanceIds": [
+        "public:CVT-EV-002"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-EV-003": {
+      "provenanceIds": [
+        "public:CVT-EV-003"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-EV-010": {
+      "provenanceIds": [
+        "public:CVT-EV-010"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-EV-020": {
+      "provenanceIds": [
+        "public:CVT-EV-020"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-EV-021": {
+      "provenanceIds": [
+        "public:CVT-EV-021"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-EV-022": {
+      "provenanceIds": [
+        "public:CVT-EV-022"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-EV-023": {
+      "provenanceIds": [
+        "public:CVT-EV-023"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-EV-030": {
+      "provenanceIds": [
+        "public:CVT-EV-030"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-EV-040": {
+      "provenanceIds": [
+        "public:CVT-EV-040"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-EV-050": {
+      "provenanceIds": [
+        "public:CVT-EV-050"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-EV-051": {
+      "provenanceIds": [
+        "public:CVT-EV-051"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-EV-052": {
+      "provenanceIds": [
+        "public:CVT-EV-052"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-EV-053": {
+      "provenanceIds": [
+        "public:CVT-EV-053"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-EV-054": {
+      "provenanceIds": [
+        "public:CVT-EV-054"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-EV-055": {
+      "provenanceIds": [
+        "public:CVT-EV-055"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-EV-060": {
+      "provenanceIds": [
+        "public:CVT-EV-060"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-EV-070": {
+      "provenanceIds": [
+        "public:CVT-EV-070"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-FC-001": {
+      "provenanceIds": [
+        "public:CVT-FC-001"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-FC-002": {
+      "provenanceIds": [
+        "public:CVT-FC-002"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-FC-010": {
+      "provenanceIds": [
+        "public:CVT-FC-010"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-FC-020": {
+      "provenanceIds": [
+        "public:CVT-FC-020"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-FC-021": {
+      "provenanceIds": [
+        "public:CVT-FC-021"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-FC-030": {
+      "provenanceIds": [
+        "public:CVT-FC-030"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-FC-031": {
+      "provenanceIds": [
+        "public:CVT-FC-031"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-FC-032": {
+      "provenanceIds": [
+        "public:CVT-FC-032"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-FC-033": {
+      "provenanceIds": [
+        "public:CVT-FC-033"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-FC-034": {
+      "provenanceIds": [
+        "public:CVT-FC-034"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-FC-035": {
+      "provenanceIds": [
+        "public:CVT-FC-035"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-FC-036": {
+      "provenanceIds": [
+        "public:CVT-FC-036"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-FC-040": {
+      "provenanceIds": [
+        "public:CVT-FC-040"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-FC-050": {
+      "provenanceIds": [
+        "public:CVT-FC-050"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-FC-051": {
+      "provenanceIds": [
+        "public:CVT-FC-051"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-FC-052": {
+      "provenanceIds": [
+        "public:CVT-FC-052"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-FC-053": {
+      "provenanceIds": [
+        "public:CVT-FC-053"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-FC-054": {
+      "provenanceIds": [
+        "public:CVT-FC-054"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-FC-060": {
+      "provenanceIds": [
+        "public:CVT-FC-060"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-PROP-001": {
+      "provenanceIds": [
+        "public:CVT-PROP-001"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-PROP-002": {
+      "provenanceIds": [
+        "public:CVT-PROP-002"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-PROP-003": {
+      "provenanceIds": [
+        "public:CVT-PROP-003"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-PROP-004": {
+      "provenanceIds": [
+        "public:CVT-PROP-004"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-PROP-005": {
+      "provenanceIds": [
+        "public:CVT-PROP-005"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-PROP-006": {
+      "provenanceIds": [
+        "public:CVT-PROP-006"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-PROP-007": {
+      "provenanceIds": [
+        "public:CVT-PROP-007"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-PROP-008": {
+      "provenanceIds": [
+        "public:CVT-PROP-008"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-PROP-009": {
+      "provenanceIds": [
+        "public:CVT-PROP-009"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-PROP-010": {
+      "provenanceIds": [
+        "public:CVT-PROP-010"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-PROP-011": {
+      "provenanceIds": [
+        "public:CVT-PROP-011"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-PROP-012": {
+      "provenanceIds": [
+        "public:CVT-PROP-012"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-TOP-001": {
+      "provenanceIds": [
+        "public:CVT-TOP-001"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-TOP-002": {
+      "provenanceIds": [
+        "public:CVT-TOP-002"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-TOP-003": {
+      "provenanceIds": [
+        "public:CVT-TOP-003"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-TOP-004": {
+      "provenanceIds": [
+        "public:CVT-TOP-004"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-TOP-005": {
+      "provenanceIds": [
+        "public:CVT-TOP-005"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-TOP-006": {
+      "provenanceIds": [
+        "public:CVT-TOP-006"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-TOP-007": {
+      "provenanceIds": [
+        "public:CVT-TOP-007"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-TOP-008": {
+      "provenanceIds": [
+        "public:CVT-TOP-008"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-TOP-009": {
+      "provenanceIds": [
+        "public:CVT-TOP-009"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-TOP-010": {
+      "provenanceIds": [
+        "public:CVT-TOP-010"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-VAL-001": {
+      "provenanceIds": [
+        "public:CVT-VAL-001"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-VAL-002": {
+      "provenanceIds": [
+        "public:CVT-VAL-002"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-VAL-003": {
+      "provenanceIds": [
+        "public:CVT-VAL-003"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-VAL-100": {
+      "provenanceIds": [
+        "public:CVT-VAL-100"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-VAL-101": {
+      "provenanceIds": [
+        "public:CVT-VAL-101"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-VAL-102": {
+      "provenanceIds": [
+        "public:CVT-VAL-102"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-VAL-103": {
+      "provenanceIds": [
+        "public:CVT-VAL-103"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-VAL-104": {
+      "provenanceIds": [
+        "public:CVT-VAL-104"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-VAL-105": {
+      "provenanceIds": [
+        "public:CVT-VAL-105"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-VAL-106": {
+      "provenanceIds": [
+        "public:CVT-VAL-106"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-VAL-107": {
+      "provenanceIds": [
+        "public:CVT-VAL-107"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-VAL-108": {
+      "provenanceIds": [
+        "public:CVT-VAL-108"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-VAL-109": {
+      "provenanceIds": [
+        "public:CVT-VAL-109"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-VAL-110": {
+      "provenanceIds": [
+        "public:CVT-VAL-110"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-VAL-111": {
+      "provenanceIds": [
+        "public:CVT-VAL-111"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-VAL-112": {
+      "provenanceIds": [
+        "public:CVT-VAL-112"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-VAL-113": {
+      "provenanceIds": [
+        "public:CVT-VAL-113"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-VAL-114": {
+      "provenanceIds": [
+        "public:CVT-VAL-114"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-VAL-115": {
+      "provenanceIds": [
+        "public:CVT-VAL-115"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-VAL-116": {
+      "provenanceIds": [
+        "public:CVT-VAL-116"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-VAL-117": {
+      "provenanceIds": [
+        "public:CVT-VAL-117"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-VAL-118": {
+      "provenanceIds": [
+        "public:CVT-VAL-118"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-VAL-119": {
+      "provenanceIds": [
+        "public:CVT-VAL-119"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-VAL-120": {
+      "provenanceIds": [
+        "public:CVT-VAL-120"
+      ],
+      "publicBook": "books/conversion.md"
+    },
+    "CVT-VAL-121": {
+      "provenanceIds": [
+        "public:CVT-VAL-121"
+      ],
+      "publicBook": "books/conversion.md"
+    }
+  },
+  "schemaVersion": 1,
+  "source": {
+    "commit": "21b7acaac1f80c4b6c94e9799a7ddd05db300da1",
+    "identity": "vx-json-evolution-claude",
+    "inputMode": "GIT_COMMIT_ARCHIVE"
+  }
+}

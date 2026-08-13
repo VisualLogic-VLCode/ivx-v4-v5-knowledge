@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.ivx.local/knowledge/v1/release-payload.schema.json",
+  "title": "Signed Knowledge stable-channel payload",
+  "type": "object",
+  "required": ["schemaVersion", "kind", "channel", "latest", "minimumSupported", "revoked", "versions"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "kind": { "const": "knowledge" },
+    "channel": { "const": "stable" },
+    "latest": { "type": "string" },
+    "minimumSupported": { "type": ["string", "null"] },
+    "revoked": { "type": "array", "uniqueItems": true, "items": { "type": "string" } },
+    "versions": { "type": "object" }
+  },
+  "additionalProperties": false
+}

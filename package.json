@@ -1,0 +1,18 @@
+{
+  "name": "@visuallogic-vlcode/ivx-v4-v5-knowledge-maintainer",
+  "version": "0.1.0",
+  "description": "Deterministic publisher for the public signed iVX V4-to-V5 Knowledge Runtime.",
+  "type": "module",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "sync:source": "node scripts/sync-from-source.mjs",
+    "check": "node --test && node scripts/verify-runtime.mjs",
+    "key:generate": "node scripts/generate-release-key.mjs",
+    "release:prepare": "node scripts/prepare-release.mjs",
+    "release:publish": "node scripts/publish-release.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

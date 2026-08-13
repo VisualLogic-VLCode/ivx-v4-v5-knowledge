@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "kind": "ivx-v4-v5-knowledge-runtime",
+  "version": "0.1.0",
+  "knowledgeSchemaVersion": 1,
+  "contentSha256": "b2bd023297c1561a73ec0141bc7e26622f0b54a70da447ad7aa4216302132708",
+  "compatibility": {
+    "workflow": ">=0.3.8 <1.0.0",
+    "converter": ">=1.2.1 <2.0.0",
+    "agentProtocol": {
+      "min": 4,
+      "max": 4
+    }
+  },
+  "files": [
+    {
+      "path": "books/conversion.md",
+      "sha256": "01b344c795d0b6fe4afac1849af94ad90c7e6f9e4dbf82d0d6267da98008421c"
+    },
+    {
+      "path": "books/spec-4x.md",
+      "sha256": "a8a00e680bea7899d7b712e277c3fdb26329d5d584ca2530bdc09e53468754b6"
+    },
+    {
+      "path": "books/spec-5x.md",
+      "sha256": "846170dcab85dad1ac4ffdc930610903ac4dbeb89367e7db21a12e48e7f3af79"
+    },
+    {
+      "path": "index/rules.json",
+      "sha256": "b5badeb91a36d92f771ffc795ad633d640d6623d4187299a6cc39893978d6deb"
+    },
+    {
+      "path": "provenance.json",
+      "sha256": "606b97818308ace963947ca902b233792fcb7bc4d005b4804116263121a84de0"
+    },
+    {
+      "path": "rules.jsonl",
+      "sha256": "730db2c0ec254b12e6eec703dc4363b3244748b0a599406e04c248030c46474a"
+    },
+    {
+      "path": "vocab/rule-domains.json",
+      "sha256": "cc0a0c9651370b296526aa921922d95978c8ff864b3150a010564f9438194261"
+    }
+  ]
+}
