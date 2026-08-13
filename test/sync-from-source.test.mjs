@@ -45,6 +45,14 @@ function digestTree(root) {
   return walkRegularFiles(root).map((relative) => `${relative}:${sha256File(path.join(root, relative))}`).join('\n');
 }
 
+test('published compatibility metadata admits Agent protocol 6 without changing knowledge content', () => {
+  const manifest = JSON.parse(fs.readFileSync(new URL('../runtime/manifest.json', import.meta.url), 'utf8'));
+  const allowlist = JSON.parse(fs.readFileSync(new URL('../config/public-export-allowlist.json', import.meta.url), 'utf8'));
+  assert.deepEqual(manifest.compatibility.agentProtocol, { min: 4, max: 6 });
+  assert.deepEqual(allowlist.compatibility.agentProtocol, manifest.compatibility.agentProtocol);
+  assert.equal(manifest.contentSha256, '43ef6f4a14eb17e1d831176ee498fece9ae6a5e00132531e5d3dda53d83502b5');
+});
+
 test('sync exports a deterministic deidentified commit snapshot and ignores dirty source data', () => {
   const temporary = fs.mkdtempSync(path.join(os.tmpdir(), 'ivx-knowledge-sync-test-'));
   try {
