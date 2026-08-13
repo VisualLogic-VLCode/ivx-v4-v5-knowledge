@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "kind": "ivx-v4-v5-knowledge-runtime",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "knowledgeSchemaVersion": 1,
-  "contentSha256": "b2bd023297c1561a73ec0141bc7e26622f0b54a70da447ad7aa4216302132708",
+  "contentSha256": "43ef6f4a14eb17e1d831176ee498fece9ae6a5e00132531e5d3dda53d83502b5",
   "compatibility": {
     "workflow": ">=0.3.8 <1.0.0",
     "converter": ">=1.2.1 <2.0.0",
@@ -31,7 +31,7 @@
     },
     {
       "path": "provenance.json",
-      "sha256": "606b97818308ace963947ca902b233792fcb7bc4d005b4804116263121a84de0"
+      "sha256": "593d81548aebc439df4f66ee1041747dc98179acf1737d7fb5f491a3d412ee1c"
     },
     {
       "path": "rules.jsonl",

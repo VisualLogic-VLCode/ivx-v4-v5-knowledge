@@ -520,7 +520,7 @@
   },
   "schemaVersion": 1,
   "source": {
-    "commit": "21b7acaac1f80c4b6c94e9799a7ddd05db300da1",
+    "commit": "251ad179a567af82b300f8b3a6b906e1ded6c657",
     "identity": "vx-json-evolution-claude",
     "inputMode": "GIT_COMMIT_ARCHIVE"
   }

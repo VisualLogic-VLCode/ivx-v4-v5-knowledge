@@ -16,15 +16,17 @@ The tracked `runtime/` directory is the reviewed public candidate. It contains o
 npm run sync:source -- \
   --source /absolute/path/to/vx-json-evolution-claude \
   --source-ref HEAD \
-  --version 0.1.0
+  --version 0.1.1
 
 npm run check
 git add . && git commit
 git push origin main
 
-npm run release:prepare -- --version 0.1.0
+npm run release:prepare -- \
+  --version 0.1.1 \
+  --previous-manifest ./release-out/knowledge-0.1.0/knowledge-stable.json
 npm run release:publish -- \
-  --plan ./release-out/knowledge-0.1.0/github-release-plan.json \
+  --plan ./release-out/knowledge-0.1.1/github-release-plan.json \
   --confirm PUBLISH_STABLE_KNOWLEDGE
 ```
 

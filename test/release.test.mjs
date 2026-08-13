@@ -39,9 +39,10 @@ test('release preparation packages only signed non-executable runtime data from 
   try {
     const packageDir = path.join(temporary, 'knowledge');
     const origin = path.join(temporary, 'origin.git');
-    const output = path.join(packageDir, 'release-out', 'knowledge-0.1.0');
+    const releaseVersion = JSON.parse(fs.readFileSync(new URL('../runtime/manifest.json', import.meta.url), 'utf8')).version;
+    const output = path.join(packageDir, 'release-out', `knowledge-${releaseVersion}`);
     fs.mkdirSync(packageDir);
-    fs.writeFileSync(path.join(packageDir, 'package.json'), JSON.stringify({ name: '@test/maintainer', version: '0.1.0', type: 'module', private: true }));
+    fs.writeFileSync(path.join(packageDir, 'package.json'), JSON.stringify({ name: '@test/maintainer', version: releaseVersion, type: 'module', private: true }));
     fs.cpSync(new URL('../runtime', import.meta.url), path.join(packageDir, 'runtime'), { recursive: true });
     const { publicKey, privateKey } = crypto.generateKeyPairSync('ed25519');
     const privateKeyFile = path.join(temporary, 'private.pem');
@@ -62,8 +63,8 @@ test('release preparation packages only signed non-executable runtime data from 
     assert.equal(fs.existsSync(prepared.artifact.file), true);
     const envelope = JSON.parse(fs.readFileSync(prepared.manifest.file, 'utf8'));
     const payload = verifySignedEnvelope(envelope, fs.readFileSync(publicKeyFile, 'utf8'));
-    assert.equal(payload.latest, '0.1.0');
-    assert.equal(payload.versions['0.1.0'].capabilities.automaticRepair, false);
+    assert.equal(payload.latest, releaseVersion);
+    assert.equal(payload.versions[releaseVersion].capabilities.automaticRepair, false);
     const listing = run('tar', ['-tzf', prepared.artifact.file], packageDir);
     assert.match(listing, /package\/rules\.jsonl/);
     assert.doesNotMatch(listing, /scripts\/|private|raw|candidate-out/);
