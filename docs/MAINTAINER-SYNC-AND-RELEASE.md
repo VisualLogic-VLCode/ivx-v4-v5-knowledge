@@ -12,7 +12,7 @@
 npm run sync:source -- \
   --source /absolute/path/to/vx-json-evolution-claude \
   --source-ref HEAD \
-  --version 0.1.5
+  --version 0.1.6
 ```
 
 同步器把 `source-ref` 解析为完整 commit，以 `git archive` 创建隔离快照，并在快照内运行该 revision 自带的 `build_book.py` 与 `book_lint.py`。工作树的未提交内容完全不进入候选；若维护源是 dirty，只在忽略的同步报告中记录 `DIRTY_SOURCE_IGNORED`。
@@ -61,8 +61,8 @@ Knowledge 使用独立 Ed25519 密钥。私钥默认位于：
 
 ```bash
 npm run release:prepare -- \
-  --version 0.1.5 \
-  --previous-manifest ./release-out/knowledge-0.1.4/knowledge-stable.json
+  --version 0.1.6 \
+  --previous-manifest ./release-out/knowledge-0.1.5/knowledge-stable.json
 ```
 
 首个版本省略 `--previous-manifest`；后续版本必须传入上一版已验证的签名 manifest，使 stable payload 保留所有未撤销旧版本，用户才能执行可信回滚。准备器会验证旧 manifest 的独立 Knowledge 签名，并拒绝重复发布同一版本。
@@ -73,7 +73,7 @@ npm run release:prepare -- \
 
 ```bash
 npm run release:publish -- \
-  --plan ./release-out/knowledge-0.1.5/github-release-plan.json \
+  --plan ./release-out/knowledge-0.1.6/github-release-plan.json \
   --confirm PUBLISH_STABLE_KNOWLEDGE
 ```
 
