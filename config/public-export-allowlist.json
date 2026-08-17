@@ -18,7 +18,7 @@
   "compatibility": {
     "workflow": ">=0.3.8 <1.0.0",
     "converter": ">=1.2.1 <2.0.0",
-    "agentProtocol": { "min": 4, "max": 7 }
+    "agentProtocol": { "min": 4, "max": 8 }
   },
   "privacyScannerVersion": "1.0.0"
 }

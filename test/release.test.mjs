@@ -65,7 +65,7 @@ test('release preparation packages only signed non-executable runtime data from 
     const payload = verifySignedEnvelope(envelope, fs.readFileSync(publicKeyFile, 'utf8'));
     assert.equal(payload.latest, releaseVersion);
     assert.equal(payload.versions[releaseVersion].capabilities.automaticRepair, false);
-    assert.deepEqual(payload.versions[releaseVersion].compatibleAgentProtocol, { min: 4, max: 7 });
+    assert.deepEqual(payload.versions[releaseVersion].compatibleAgentProtocol, { min: 4, max: 8 });
     assert.equal(payload.versions[releaseVersion].contentSha256, '43ef6f4a14eb17e1d831176ee498fece9ae6a5e00132531e5d3dda53d83502b5');
     const listing = run('tar', ['-tzf', prepared.artifact.file], packageDir);
     assert.match(listing, /package\/rules\.jsonl/);
